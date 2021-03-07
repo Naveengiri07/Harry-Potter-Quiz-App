@@ -1,0 +1,81 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background-color: #f9f9f9;
+  margin-left: 280px;
+  margin-top: 50px;
+  width: 806px;
+  height: 440px;
+  box-shadow: 13px 14px 6px #05050534;
+  border-radius: 20px;
+  padding-top: 5px;
+}
+
+.startButton {
+  margin-left: 124px;
+  margin-top: 98px;
+  width: 558px;
+  height: 224px;
+  border-radius: 40px;
+  border: none;
+  font-weight: 600;
+  font-size: 106px;
+  background-image: linear-gradient(135deg, #f65d19, #d8b711);
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+#problem {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
+.optionContainer {
+  display: grid;
+  grid-template-columns: 233px 233px;
+  row-gap: 40px;
+  column-gap: 233px;
+  margin-left: 52px;
+  margin-top: 70px;
+}
+
+.optionButton {
+  height: 88px;
+  border: none;
+  background-image: linear-gradient(135deg, #0d65e9, #2289e4);
+  border-radius: 15px;
+  color: #f9f9f9;
+  font-weight: 400;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.optionButton:hover {
+  border: solid rgb(0, 0, 0);
+}
+
+.next-btn {
+  margin-top: 48px;
+  margin-left: 593px;
+  width: 180px;
+  height: 72px;
+  border-radius: 18px;
+  border: none;
+  background-color: #e12b69;
+  color: #f9f9f9;
+  font-weight: 700;
+  font-size: 40px;
+  box-shadow: 8px 8px 5px #05050534;
+  opacity: 0%;
+}
+
+.thankYou {
+  text-align: center;
+  margin-top: 150px;
+  color: #e12b69;
+  font-weight: 800;
+  font-size: 80px;
+}
